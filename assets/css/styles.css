@@ -412,11 +412,11 @@ textarea::-webkit-outer-spin-button {
   background-color: #f9f9ff;
 }
 
-.contact-area > .container {
+.contact-area .container {
   text-align: center;
 }
 
-.contact-area > .container > .item {
+.contact-area .container .item {
   height: auto;
   padding: 30px 50px;
   margin: 20px;
@@ -426,41 +426,41 @@ textarea::-webkit-outer-spin-button {
   border-radius: 15px;
 }
 
-.contact-area > .container > .item:hover {
+.contact-area .container .item .icon {
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.contact-area .container .item .icon a > i {
+  font-size: 64px;
+  color: #333;
+}
+
+.contact-area .container .item .icon a > i:hover {
+  font-size: 64px;
+  color: white;
+}
+
+.contact-area .container .item .service {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.contact-area .container .item .content * {
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 1.5px;
+  padding: 10px 0;
+}
+
+.contact-area .container .item:hover {
   -webkit-transform: scale(1.015);
           transform: scale(1.015);
   -webkit-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   background-image: -webkit-gradient(linear, right top, left top, from(#f7cd44), to(#f78644));
   background-image: linear-gradient(to left, #f7cd44, #f78644);
-}
-
-.contact-area > .container > .item > .icon {
-  padding: 10px 0;
-  display: inline-block;
-}
-
-.contact-area > .container > .item > .icon > a > i {
-  font-size: 64px;
-  color: #333;
-}
-
-.contact-area > .container > .item > .icon > a > i:hover {
-  font-size: 64px;
-  color: white;
-}
-
-.contact-area > .container > .item > .service {
-  font-size: 32px;
-  font-weight: bold;
-  padding: 10px 0;
-}
-
-.contact-area > .container > .item > .content * {
-  font-size: 16px;
-  font-family: "Noto Sans KR", sans-serif;
-  letter-spacing: 1.5px;
-  padding: 10px 0;
 }
 
 /* 
