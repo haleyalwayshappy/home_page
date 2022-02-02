@@ -1,0 +1,15 @@
+@import "./abstracts/variables_color";
+@import "./abstracts/variables";
+@import "./abstracts/mixin_common";
+
+@import "./base/reset";
+@import "./base/preset";
+
+
+@import "./components/intro_area";
+
+@import "./components/about_area";
+@import "./components/contact_area";
+@import "./components/header_footer_area";
+@import "./components/portfolio_area";
+@import "./components/section_area";

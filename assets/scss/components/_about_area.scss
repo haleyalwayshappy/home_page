@@ -1,0 +1,122 @@
+/* about area */
+  
+.about-area {
+    height: auto;
+    position: relative;
+  }
+  
+  .about-area>.picture {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  @media (min-width: 992px) {
+    .about-area>.picture {
+      width: calc(40% - 40px);
+      display: inline-block;
+    }
+  }
+  
+  .about-area>.picture>img {
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 15px;
+  }
+  
+  .about-area>.picture>.name {
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .about-area>.picture>.description {
+    font-size: 14px;
+    font-family: "Noto sans KR", sans-serif;
+  }
+  
+  .about-area>.text {
+    display: block;
+    padding: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .about-area>.text {
+      width: calc(60% - 100px);
+      display: inline-block;
+      padding: 0 50px;
+    }
+  }
+  
+  .about-area>.text * {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .about-area>.text>.intro {
+    padding: 20px 0;
+    font-family: "Noto sans KR", sans-serif;
+    letter-spacing: 1.5px;
+  }
+  
+  .about-area>.text>ul {
+    padding: 20px 0;
+  }
+  
+  .about-area>.text>ul>li {
+    height: 40px;
+  }
+  
+  .about-area>.text>ul>li>.info {
+    color: #777;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: row;
+  }
+  .about-area>.text>ul>li>.info>.icon{
+    width:40px;
+    margin : 0  4px 0 0;
+    text-align: left;
+  }
+  
+  .about-area>.text>ul>li>.info>.icon>i {
+    color: rgb(252, 179, 45);
+    font-size: 24px;
+    /* background-color: gray; */
+    padding : 3px;
+    
+  }
+  .about-area>.text>ul>li>.info>.text>span{
+    color: #777;
+  }
+  
+  
+  
+  .about-area>.text>.sns {
+    text-align: right;
+  }
+  
+  @media (min-width: 992px) {
+    .about-area>.text>.sns {
+      text-align: left;
+    }
+  }
+  
+  .about-area>.text>.sns>a {
+    width: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .about-area>.text>.sns>a:hover {
+    background-image: linear-gradient(to left,
+        rgb(247, 205, 68),
+        rgb(247, 134, 68));
+  }
+  
