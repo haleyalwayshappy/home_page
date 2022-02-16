@@ -170,28 +170,32 @@ font-family: 'Roboto Mono', monospace;
       height: auto;
       text-align: center;
       background-color: #333;
+      * {
+        color: white;
+      }
+      .item {
+        display: inline-block;
+        padding: 10px;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          color: #333;
+          i {
+            font-size: 24px;
+          }
+          
+        }  
+      }
+      .info>p {
+        font-size: 16px;
+        padding: 10px 0;
+      }
     }
     
-    .footer-area * {
-      color: white;
-    }
     
-    .footer-area>.sns>.item {
-      display: inline-block;
-      padding: 10px;
-      cursor: pointer;
-    }
     
-    .footer-area>.sns>.item>a {
-      text-decoration: none;
-      color: #333;
-    }
     
-    .footer-area>.sns>.item>a>i {
-      font-size: 24px;
-    }
     
-    .footer-area>.info>p {
-      font-size: 16px;
-      padding: 10px 0;
-    }
+    
+    
+    
